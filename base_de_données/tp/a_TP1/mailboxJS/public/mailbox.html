@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <title>MongoDB-based Mailbox application</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="mailbox.css" type="text/css">
+        <script src="mailbox.js"></script>
+    </head>
+
+    <body>
+    
+    <nav>
+        <ul>
+            <li id="btnRecevoir"><i class="fa fa-download"></i>Recevoir</li>
+            <li id="btnRediger"><i class="fa fa-pencil"></i>Rédiger</li>
+        </ul>    
+        
+        <aside>
+            <input type="checkbox" id="params">
+            <label>Votre identité :<br><input type="text" id="txtLogin" value=""></label>
+            <label>Votre groupe : 
+                <select id="selGroupUser">
+                    <option value="TD1">TD1</option>
+                    <option value="TD2">TD2</option>
+                </select>
+            </label>
+            <label for="params"><i class="fa fa-cog"></i></label>
+        </aside>
+        
+    </nav>
+    
+    <article>
+        <header>
+            <span class="date"></span>
+            <p>Expéditeur : <span class="from"></span></p>
+            <p>Destinataire : <span class="to"></span></p>
+            <p>Sujet : <span class="subject"></span></p>
+        </header>   
+        <div>
+            
+        </div>
+    </article>        
+            
+    <section>
+        <table>
+            <thead>
+                <tr><th>Expéditeur</th><th>Sujet</th><th>Date</th></tr>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        </table>
+    </section>    
+    
+    <main>
+        <button id="btnCloseNew"></button>
+        <button id="btnSendMessage">Envoyer le message</button>
+        <table>
+            <tr>
+                <td>Destinataire(s) :</td><td><input type="text" id="txtTo"></td>
+            </tr>
+            <tr>
+                <td>Sujet :</td><td><input type="text" id="txtSubject" placeholder="Sujet du message"></td>
+            </tr>
+        </table>
+        <textarea id="txtContent" placeholder="Contenu du message"></textarea>
+    </main>    
+        
+    </body>
+
+</html>
