@@ -1,0 +1,17 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<! ELEMENT cine-club (showing, film-list)>
+
+<! ELEMENT showing (opening +)>
+<! ELEMENT opening (data, time, ending)>
+<! ATTLIST opening for-film IDREF #REQUIRED> <!-- ID et IDREF permettent de faire des liens entre des élément -->
+<! ELEMENT date EMPTY>
+<! ATTLIST date day CDATA #REQUIRED mounth CDATA #REQUIRED year CDATA #REQUIRED>
+<! ELEMENT time EMPTY>
+<! ATTLIST time hours CDATA #REQUIRED minutes CDATA #REQUIRED>
+<! ELEMENT ending EMPTY>
+<! ATTLIST ending hours CDATA #REQUIRED minutes CDATA #REQUIRED>
+
+<! ELEMENT film-list (film +)>
+<! ELEMENT film (title)>
+<! ATTLIST film key ID #REQUIRED dvd-issued (yes|no) "no">
+<! ELEMENT title (#PCDATA)>

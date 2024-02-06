@@ -12,9 +12,6 @@ app.listen(8080, function() {
 
 app.use(bodyParser.json())
 
-/*** Ouvrir la connexion à MongoDB ici ***/
-
-
 
 // ouverture par défaut du fichier mailbox.html
 app.get('/', function(req, res) {  

@@ -1,0 +1,37 @@
+<? xml version= "1.0" encoding= "UTF-8" ?>
+  <water-bottles>
+    <water-bottle>
+		  <name> Cristalline </name>
+		  <capacity unit="cl" value="150" />
+		  <analysis>
+		    <contains><body> Ca(2+) </body><mass-concentration value= "71." /></contains>
+				<contains><body> Mg(+) </body><mass-concentration value= "5.5" /></contains>
+				<contains><body> Cl(-) </body><mass-concentration value= "20." /></contains>
+				<contains><body> NO(-) </body><mass-concentration value= "1." /></contains>
+				<contains><body> Fe </body></contains>
+		  </analysis>
+		  <localisation country="FR">
+		    <city> St-Cyr la source </city>
+				<french-department number="45"> Loiret </french-department>
+		  </localisation>
+		  <barcode> 3274080005003 </barcode>
+			<ph value="7.45" />
+    </water-bottle>
+		<water-bottle>
+			<!-- same balise -->
+		</water-bottle>
+		<!-- ... -->
+		<water-bottle>
+			<name> Tipperary </name>
+			<capacity unit="cl" value="150" />
+		  <analysis>
+		    <!-- some contains -->
+		  </analysis>
+		  <localisation country="IE">
+		    <city> Borisoleigh </city>
+				<division by="county"> Tipperary </division>
+		  </localisation>
+		  <barcode> ... </barcode>
+			<ph value="7.7" />
+    </water-bottle>
+  </water-bottles>

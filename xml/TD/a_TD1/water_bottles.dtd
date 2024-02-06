@@ -1,0 +1,24 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<! ELEMENT water-bottles (water-bottle *)> <!-- * = 0 ou plusieurs | + = 1 ou plusieurs | ? = 0 ou 1 | nothing = 1 -->
+<! ELEMENT water-bottle (name, capacity, analisys, localisation, barcode, ph)>
+<! ELEMENT name (#PCDATA)>
+<! ELEMENT capacity EMPTY>
+<! ATTLIST capacity unit CDATA "mg.l(-1)" value CDATA #REQUIRED> <!-- attribut requit : #REQUIRED | attribut facultatif : #IMPLIED | mettre une valeur par default remplace #REQUIRED et #IMPLIED -->
+
+<! ELEMENT analisys (contains*)>
+<! ELEMENT contains (body, masse-concentrations ?)>
+<! ELEMENT body (#PCDATA)>
+<! ELEMENT masse-concentrations EMPTY>
+<! ATTLIST masse-concentration value CDATA #REQUIRED>
+
+<! ELEMENT localisation (city, (french-department | division))> <!-- ( | ) soit l'un, soit l'autre -->
+<! ATTLIST localisation coutry CDATA #REQUIRED>
+<! ELEMENT city (#PCDATA)>
+<! ELEMENT french-department (#PCDATA)>
+<! ATTLIST french-department number CDATA #REQUIRED>
+<! ELEMENT division (#PCDATA)>
+<! ATTLIST division by CDATA #REQUIRED>
+
+<! ELEMENT barcode (#PCDATA)>
+<! ELEMENT ph EMPTY>
+<! ATTLIST ph value CDATA #REQUIRED>
