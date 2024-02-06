@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/juliengauthier410/l3/s6/analyse_syntaxique/TP/a_TP1/tp1-flex/main.c
+stdio.h
+-
+lexer.h
+/home/juliengauthier410/l3/s6/analyse_syntaxique/TP/a_TP1/tp1-flex/lexer.h
+
+lexer.h
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+unistd.h
+-
+
