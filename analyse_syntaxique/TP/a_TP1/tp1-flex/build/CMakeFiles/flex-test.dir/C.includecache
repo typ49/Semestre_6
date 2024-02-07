@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/juliengauthier410/l3/s6/analyse_syntaxique/TP/a_TP1/tp1-flex/build/lexer.c
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
 /home/juliengauthier410/l3/s6/analyse_syntaxique/TP/a_TP1/tp1-flex/main.c
 stdio.h
 -
