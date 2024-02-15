@@ -1,4 +1,5 @@
 <? xml version= "1.0" encoding= "UTF-8" ?>
+<! DOCTYPE water-bottles SYSTEM "./water_bottles.dtd">
   <water-bottles>
     <water-bottle>
 		  <name> Cristalline </name>
