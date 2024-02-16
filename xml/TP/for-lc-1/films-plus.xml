@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine-club SYSTEM "cine-club-plus.dtd">
+
+<cine-club>
+  <showing>
+    <opening for-film="west-side-story">
+      <date day="15" month="12" year="2004" />
+      <time hours="8" minutes="0" />
+      <ending hours="21" minutes="30" />
+    </opening>
+    <opening for-film="king-kong">
+      <date day="13" month="12" year="2004" />
+      <time hours="18" minutes="0" />
+      <ending hours="21" minutes="0" />
+    </opening>
+    <opening for-film="ben-hur">
+      <date day="1" month="1" year="2005" />
+      <time hours="15" minutes="0" />
+      <ending hours="22" minutes="0" />
+    </opening>
+    <opening for-film="west-side-story">
+      <date day="2" month="1" year="2005" />
+      <time hours="18" minutes="0" />
+      <ending hours="21" minutes="30" />
+    </opening>
+    <opening for-film="mars-attack">
+      <date day="14" month="12" year="2004" />
+      <time hours="18" minutes="0" />
+      <ending hours="20" minutes="30" />
+    </opening>
+    <opening for-film="soleil-trompeur">
+      <date day="14" month="12" year="2004" />
+      <time hours="20" minutes="40" />
+      <ending hours="23" minutes="50" />
+    </opening>
+    <opening for-film="german">
+      <date day="16" month="12" year="2004" />
+      <time hours="21" minutes="0" />
+      <ending hours="23" minutes="0" />
+    </opening>
+    <opening for-film="delon-serrault">
+      <date day="18" month="12" year="2004" />
+      <time hours="20" minutes="0" />
+      <ending hours="22" minutes="0" />
+    </opening>
+    <opening for-film="king-of-thieves">
+      <date day="17" month="12" year="2004" />
+      <time hours="16" minutes="0" />
+      <ending hours="19" minutes="30" />
+    </opening>
+    <opening for-film="rabbi-jacob">
+      <date day="17" month="2" year="2004" />
+      <time hours="20" minutes="0" />
+      <ending hours="22" minutes="30" />
+    </opening>
+    <opening for-film="mars-attack">
+      <date day="16" month="12" year="2004" />
+      <time hours="18" minutes="0" />
+      <ending hours="20" minutes="30" />
+    </opening>
+    <opening for-film="siberie">
+      <date day="20" month="12" year="2004" />
+      <time hours="17" minutes="30" />
+      <ending hours="21" minutes="0" />
+    </opening>
+    <opening for-film="ben-hur">
+      <date day="25" month="12" year="2004" />
+      <time hours="16" minutes="0" />
+      <ending hours="23" minutes="0" />
+    </opening>
+    <opening for-film="rabbi-jacob">
+      <date day="27" month="12" year="2004" />
+      <time hours="20" minutes="0" />
+      <ending hours="22" minutes="30" />
+    </opening>
+    <opening for-film="king-kong">
+      <date day="26" month="12" year="2004" />
+      <time hours="19" minutes="0" />
+      <ending hours="21" minutes="30" />
+    </opening>
+  </showing>
+  <film-list>
+    <film key="snake-eyes" dvd-issued="yes">
+      <title with-vhs="GI-JOE">Snake Eyes</title>
+    </film>
+    <film key="mars-attack" dvd-issued="yes">
+      <title>Mars-Attack</title>
+    </film>
+    <film key="west-side-story" dvd-issued="yes">
+      <title with-vhs="my-fair-lady">West Side Story</title>
+    </film>
+    <film key="king-kong" dvd-issued="yes">
+      <title>King Kong</title>
+    </film>
+    <film key="ben-hur" dvd-issued="yes">
+      <title>Ben-Hur</title>
+    </film>
+    <film key="rabbi-jacob" dvd-issued="yes">
+      <title>Les aventures de Rabbi Jacob</title>
+    </film>
+    <film key="german">
+      <title>Die Erben</title>
+    </film>
+    <film key="delon-serrault" dvd-issued="yes">
+      <title>Ne réveillez pas un flic qui dort</title>
+    </film>
+    <film key="soleil-trompeur">
+      <title>Soleil trompeur</title>
+    </film>
+    <film key="king-of-thieves">
+      <title>King of Thieves</title>
+    </film>
+    <film key="siberie">
+      <title>Le barbier de Sibérie</title>
+    </film>
+  </film-list>
+</cine-club>

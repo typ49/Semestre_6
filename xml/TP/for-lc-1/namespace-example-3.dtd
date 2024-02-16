@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT namespace-example-3  (l3:teacher)>
+<!ELEMENT l3:teacher           (first,last)>
+<!ATTLIST l3:teacher           xmlns:l3
+                               CDATA #FIXED "http://l3.univ-fcomte.fr">
+<!ELEMENT first                (#PCDATA | nickname)*>
+<!ATTLIST first                l3:topic CDATA #IMPLIED
+                               xmlns CDATA #FIXED "http://disc.univ-fcomte.fr">
+<!ELEMENT nickname             (#PCDATA)>
+<!ATTLIST nickname             from CDATA #IMPLIED>
+<!ELEMENT last                 (#PCDATA)>

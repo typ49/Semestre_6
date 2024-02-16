@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Deuxième essai, avec des attributs -->
+
+<!ELEMENT poemefr1   (preambule,corps)>
+<!ELEMENT preambule  EMPTY>
+<!ATTLIST preambule  titre     CDATA #REQUIRED
+                     recueil   CDATA #IMPLIED
+                     date      CDATA #IMPLIED
+                     nom       CDATA #REQUIRED
+                     prenom    CDATA #IMPLIED
+                     naissance CDATA #IMPLIED
+                     deces     CDATA #IMPLIED>
+<!ELEMENT corps      (ligne)+>
+<!ELEMENT ligne      (#PCDATA)*>
+<!ATTLIST ligne      strophe (oui | non) "non"
+                     r       CDATA       "0em">

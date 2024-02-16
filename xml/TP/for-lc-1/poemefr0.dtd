@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Premier essai, constituÃ© exclusivement d'Ã©lÃ©ments -->
+
+<!ELEMENT poemefr0   (preambule,corps)>
+<!ELEMENT preambule  (titre,recueil?,date?,auteur)>
+<!ELEMENT titre      (#PCDATA)>
+<!ELEMENT recueil    (#PCDATA)>
+<!ELEMENT date       (#PCDATA)>
+<!ELEMENT auteur     (prenom?,nom,naissance?,deces?)>
+<!ELEMENT prenom     (#PCDATA)>
+<!ELEMENT nom        (#PCDATA)>
+<!ELEMENT naissance  (#PCDATA)>
+<!ELEMENT deces      (#PCDATA)>
+<!ELEMENT corps      (strophe+)>
+<!ELEMENT strophe    (ligne+)>
+<!ELEMENT ligne      (#PCDATA | r)*>
+<!ELEMENT r          EMPTY>

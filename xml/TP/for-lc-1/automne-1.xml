@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="poemefr1.css" type="text/css"?>
+<!--  Deuxième version avec utilisation d'attributs -->
+
+<!DOCTYPE poemefr1 SYSTEM "poemefr1.dtd" [<!ENTITY r "10pt">]>
+
+<poemefr1>
+  <preambule titre="Chanson d'automne" recueil="Poèmes saturniens" date="1866"
+             nom="Verlaine" prenom="Paul" naissance="1844" deces="1896"/>
+  <corps>
+    <ligne strophe="oui">Les sanglots longs</ligne>
+    <ligne>Des violons</ligne>
+    <ligne r="&r;">De l'automne</ligne>
+    <ligne>Blessent mon cœur</ligne>
+    <ligne>D'une langueur</ligne>
+    <ligne r="&r;">Monotone.</ligne>
+    <ligne strophe="oui">Tout suffocant,</ligne>
+    <ligne>Et blême, quand</ligne>
+    <ligne r="&r;">Sonne l'heure,</ligne>
+    <ligne strophe="oui">Je me souviens</ligne>
+    <ligne>Des jours anciens</ligne>
+    <ligne r="&r;">Et je pleure ;</ligne>
+    <ligne strophe="oui">Et je m'en vais</ligne>
+    <ligne>Au vent mauvais</ligne>
+    <ligne r="&r;">Qui m'emporte</ligne>
+    <ligne>Deça, delà,</ligne>
+    <ligne>Pareil à la</ligne>
+    <ligne r="&r;">Feuille morte.</ligne>
+  </corps>
+</poemefr1>

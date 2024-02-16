@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE namespace-example-3 SYSTEM "namespace-example-3.dtd">
+
+<namespace-example-3>
+  <l3:teacher xmlns:l3="http://l3.univ-fcomte.fr">
+    <first l3:topic="Computer Science" xmlns="http://disc.univ-fcomte.fr">
+      Jean-Michel
+      <nickname from="Nancy">Le Mec</nickname>
+    </first>
+    <last>Hufflen</last>
+  </l3:teacher>
+</namespace-example-3>
