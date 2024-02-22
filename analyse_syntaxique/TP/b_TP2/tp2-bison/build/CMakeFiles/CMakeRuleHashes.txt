@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+5bdb4b377cb8e7e04d56be684806b7fb lexer.c
+c1daddd37c31c24e1139e4809a26c0b3 parser.c
