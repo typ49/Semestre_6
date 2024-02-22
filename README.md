@@ -1,8 +1,22 @@
 # Semestre_6
-all my L3 semestre 6 work in progress
+***all my L3 semestre 6 work***
 
+## Classes
 
-## autre git :
-projet 1 : [Smart-Pointers](https://github.com/typ49/Smart-Pointers.git)
+- Analyse Syntaxique
+- Base De Données Avancée
+- Programmation Multi-Paradigme
+- Sécurité
+- XML
 
-projet 2 : [Vacobulary-Type](https://github.com/typ49/Vocabulary-Type.git)
+## other git :
+
+### PMP
+
+[Smart-Pointers](https://github.com/typ49/Smart-Pointers.git)
+
+[Vacobulary-Type](https://github.com/typ49/Vocabulary-Type.git)
+
+### AS
+
+[Project-Turtle](https://github.com/typ49/Project_Turtle.git)
