@@ -64,15 +64,31 @@ xpath count(/sf-1/entries/book/note[descendant::group/@xml:lang='de'])
 
 ## Les clés des auteurs qui ont écrit à deux ou plusieurs
 
-cat /sf-1/persons/personname[count(/sf-1/entries/book[author/personrefs/@to = @key] | /sf-1/entries/inproceedings[author/personrefs/@to = @key]) > 1]/@key
+cat sf-1/entries/*/author/personrefs[count(id(@to))>1]/@to
+
+```shell
+-------
+to="souvestre allain"
+```
 
 ## Les prénoms et noms des auteurs qui ont écrit à deux ou plusieurs
 
-cat /sf-1/persons/personname[count(/sf-1/entries/book[author/personrefs/@to = @key] | /sf-1/entries/inproceedings[author/personrefs/@to = @key]) > 1]
+cat id(sf-1/entries/*/author/personrefs[count(id(@to))>1]/@to)/first | id(sf-1/entries/*/author/personrefs[count(id(@to))>1]/@to)/last
+
+```shell
+ -------
+<first>Marcel</first>
+ -------
+<last>Allain</last>
+ -------
+<first>Pierre</first>
+ -------
+<last>Souvestre</last>
+```
 
 ## Les titres d’œuvres dont au moins un auteur a utilisé un pseudonyme
 
-cat /sf-1/entries/book[author/personrefs/@to = /sf-1/persons/personname[pseudonym-of]/@key]/title | cat /sf-1/entries/inproceedings[author/personrefs/@to = /sf-1/persons/personname[pseudonym-of]/@key]/title
+cat /sf-1/entries/*[id(author/personrefs/@to)/pseudonym-of]/title
 
 ```shell
  -------
@@ -83,5 +99,6 @@ cat /sf-1/entries/book[author/personrefs/@to = /sf-1/persons/personname[pseudony
 <title>Murder Melody</title>
  -------
 <title><skippable>The </skippable>Flaming Falcons</title>
+ -------
+<title><skippable>Auf der </skippable>Spur des Vernichters</title>
 ```
-
