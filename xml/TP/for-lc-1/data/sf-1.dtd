@@ -28,10 +28,10 @@
 
 <!ELEMENT author         (personrefs)>
 <!ELEMENT editor         (personrefs)>
-<!ELEMENT personrefs     **to-be-completed**>
+<!ELEMENT personrefs     EMPTY>
 <!ELEMENT and-others     EMPTY>
 <!ELEMENT translated-by  (personrefs,and-others?)>
-<!ATTLIST personrefs     to   **to-be-completed** **to-be-completd**>
+<!ATTLIST personrefs     to   IDREFS #REQUIRED>
 <!ATTLIST translated-by  from NMTOKEN             #REQUIRED>
 
 <!ELEMENT year   %INTEGER;>
@@ -93,6 +93,6 @@
 <!ELEMENT last          (#PCDATA)>
 <!ELEMENT junior        EMPTY>
 <!ELEMENT pseudonym-of  (personrefs,and-others?)>
-<!ATTLIST personname    key  **to-be-completed** #REQUIRED
+<!ATTLIST personname    key  ID #REQUIRED
                         born %INTEGER-A;         #IMPLIED
                         dead %INTEGER-A;         #IMPLIED>
