@@ -1,0 +1,15 @@
+/*  CSS stylesheet for a poeme written w.r.t. poemefr0.dtd.  */
+
+poemefr0 { font-size : 12pt ; background-color : yellow }
+preambule { font-family : Arial ; text-align : center }
+titre { display : block ; font-size : 18pt ; color : blue }
+recueil { display : block ; font-size : 16pt }
+date { display : block ; font-size : 16pt }
+auteur { display : block ; font-size : 14 pt }
+prenom { font-style : italic }
+nom { font-style : italic }
+naissance {}
+deces {}
+strophe { display : block ; margin : 0.5em }
+ligne { display : block ; text-indent : 1em }
+r { margin-left : 1.5em }

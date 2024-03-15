@@ -1,0 +1,17 @@
+/* CSS stylesheet for a poeme written w.r.t. poemefr1.dtd. */
+
+poemefr1 { font-size : 12pt ; background-color : green }
+preambule { text-align : center ; display : block ; }
+preambule:before {
+  font-family : Arial ; font-size : 18pt ;
+  content : attr(titre) " (in " attr(recueil) ") --- " ;
+}
+preambule:after {
+  font-size : 16pt ; content : attr(prenom) " " attr(nom) ", " attr(date) ;
+}
+ligne[strophe = "oui"] {
+  display : block ; text-indent : 1em ; margin-top : 1em ;
+  margin-left : 0.5em ;
+}  
+ligne[r] { display : block ; text-indent : 1em ; margin-left : 2em }
+ligne { display : block ; text-indent : 1em ; margin-left : 0.5em }
