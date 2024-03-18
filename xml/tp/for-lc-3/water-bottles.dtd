@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % value-measured  "value CDATA #REQUIRED">
+<!ENTITY % measurement     "unit  CDATA 'mg.l(-1)'  %value-measured;">
+
+<!ELEMENT water-bottles  (water-bottle*)>
+<!ATTLIST water-bottles  xmlns:xsi CDATA #FIXED
+                         "http://www.w3.org/2001/XMLSchema-instance"
+                         xsi:noNamespaceSchemaLocation CDATA #FIXED
+                         "water-bottles.xsd">
+<!ELEMENT water-bottle   (name,capacity,analysis,comes-from,barcode,pH)>
+<!ELEMENT name           (#PCDATA)>
+
+<!ELEMENT capacity  EMPTY>
+<!ATTLIST capacity  %measurement;>
+
+<!ELEMENT analysis  (contains*)>
+<!ELEMENT contains  (body,mass-concentration?)>
+<!ELEMENT body      (#PCDATA)>
+
+<!ELEMENT mass-concentration  EMPTY>
+<!ATTLIST mass-concentration  %measurement;>
+
+<!ELEMENT comes-from  (town,(french-department | division)?)>
+<!ATTLIST comes-from  country CDATA #REQUIRED>
+
+<!ELEMENT town                   (#PCDATA)>
+<!ELEMENT french-department      (#PCDATA)>
+<!ATTLIST french-department
+            no (01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 |
+                11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 2A | 2B |
+                21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 |
+                31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 |
+                41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 |
+                51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 | 60 |
+                61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 |
+                71 | 72 | 73 | 74 | 75 | 76 | 77 | 78 | 79 | 80 |
+                81 | 82 | 83 | 84 | 85 | 86 | 87 | 88 | 89 | 90 |
+                91 | 92 | 93 | 94 | 95 | 971 | 972 | 973 | 974 | 976)
+               #REQUIRED>
+
+<!ELEMENT division  (#PCDATA)>
+<!ATTLIST division  by CDATA #REQUIRED>
+
+<!ELEMENT barcode            (#PCDATA)>
+
+<!ELEMENT pH  EMPTY>
+<!ATTLIST pH  %value-measured;>

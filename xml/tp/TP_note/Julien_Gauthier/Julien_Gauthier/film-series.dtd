@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT film-series (film-list, people, countries)>
+<!ATTLIST film-series
+    name CDATA #REQUIRED
+    nickname CDATA #IMPLIED>
+
+<!ELEMENT film-list (film+)>
+<!ELEMENT film (title, translation*)>
+<!ATTLIST film
+    year CDATA #REQUIRED
+    starring IDREF #REQUIRED
+    after IDREFS #IMPLIED
+    music-by IDREF #REQUIRED
+    official (true | false) "true">
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT translation (#PCDATA)>
+<!ATTLIST translation
+    xml:lang NMTOKEN #REQUIRED>
+
+<!ELEMENT people (personname+)>
+<!ELEMENT personname EMPTY>
+<!ATTLIST personname
+    key ID #REQUIRED
+    firstname CDATA #REQUIRED
+    lastname CDATA #REQUIRED
+    role (actor | actress | composer | writer) #REQUIRED
+    born-as IDREF #REQUIRED
+    born CDATA #REQUIRED
+    dead CDATA #IMPLIED>
+
+<!ELEMENT countries (country+)>
+<!ELEMENT country EMPTY>
+<!ATTLIST country
+    id ID #REQUIRED
+    name CDATA #REQUIRED>

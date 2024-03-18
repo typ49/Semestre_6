@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE water-bottles SYSTEM "water-bottles.dtd"
+  [<!ENTITY latin-capital-letter-u-with-acute "&#xda;">
+   <!ENTITY latin-small-letter-a-with-acute "&#xe1;">
+   <!ENTITY latin-small-letter-i-with-acute "&#xed;">]>
+
+<water-bottles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="water-bottles.xsd">
+
+  <water-bottle>
+    <name>Cristalline</name>
+    <capacity unit="cl" value="150"/>
+    <analysis>
+      <contains><body>Ca(2+)</body><mass-concentration value="71."/></contains>
+      <contains><body>Mg(+)</body><mass-concentration value="5.5"/></contains>
+      <contains><body>Cl(-)</body><mass-concentration value="20."/></contains>
+      <contains><body>NO(-)</body><mass-concentration value="1."/></contains>
+      <contains><body>Fe</body></contains>
+    </analysis>
+    <comes-from country="FR">
+      <town>Saint-Cyr la Source</town>
+      <french-department no="45">Loiret</french-department>
+    </comes-from>
+    <barcode>3274080005003</barcode>
+    <pH value="7.45"/>
+  </water-bottle>
+
+  <water-bottle>
+    <name>Cristalline</name>
+    <capacity unit="cl" value="50"/>
+    <analysis>
+      <contains><body>Ca(2+)</body><mass-concentration value="98."/></contains>
+      <contains><body>Mg(+)</body><mass-concentration value="4."/></contains>
+      <contains><body>Cl(-)</body><mass-concentration value="3.6"/></contains>
+      <contains><body>NO(-)</body><mass-concentration value="2."/></contains>
+    </analysis>
+    <comes-from country="FR">
+      <town>Aurèle</town>
+      <french-department no="06">Alpes-Maritimes</french-department>
+    </comes-from>
+    <barcode>3268840001008</barcode>
+    <pH value="7.4"/>
+  </water-bottle>
+
+  <water-bottle>
+    <name>Volvic</name>
+    <capacity unit="cl" value="50"/>
+    <analysis>
+      <contains>
+        <body>Ca(2+)</body><mass-concentration value="11.5"/>
+      </contains>
+      <contains><body>Mg(+)</body><mass-concentration value="8."/></contains>
+      <contains><body>Cl(-)</body><mass-concentration value="13.5"/></contains>
+      <contains><body>NO(-)</body><mass-concentration value="6.3"/></contains>
+      <contains><body>SiO2</body></contains>
+    </analysis>
+    <comes-from country="FR">
+      <town>Volvic</town>
+      <french-department no="2B">Puy-de-Dôme</french-department>
+    </comes-from>
+    <barcode>3057640117008</barcode>
+    <pH value="7."/>
+  </water-bottle>
+
+  <water-bottle>
+    <name>Tipperary</name>
+    <capacity unit="l" value="1"/>
+    <analysis>
+      <contains><body>Ca(2+)</body><mass-concentration value="37."/></contains>
+      <contains><body>Cl(-)</body><mass-concentration value="15."/></contains>
+      <contains><body>Mg(+)</body><mass-concentration value="25."/></contains>
+      <contains><body>NO</body><mass-concentration value="0.5"/></contains>
+      <contains><body>K</body><mass-concentration value="17."/></contains>
+      <contains><body>Na</body><mass-concentration value="26."/></contains>
+      <contains><body>SO</body><mass-concentration value="10."/></contains>
+    </analysis>
+    <comes-from country="IE">
+      <town>Borisoleigh</town>
+      <division by="county">Tipperary</division>
+    </comes-from>
+    <barcode>3216702376008</barcode>
+    <pH value="7.7"/>
+  </water-bottle>
+    
+  <water-bottle>
+    <name>
+      B&latin-small-letter-i-with-acute;linsk&latin-small-letter-a-with-acute;
+      kyselka
+    </name>
+    <capacity unit="cl" value="120"/>
+    <analysis>
+      <contains>
+        <body>Ca(2+)</body><mass-concentration value="133.7"/>
+      </contains>
+      <contains><body>Cl(-)</body><mass-concentration value="231."/></contains>
+      <contains><body>HCO3</body><mass-concentration value="1991."/></contains>
+      <contains><body>Li</body><mass-concentration value="3.72"/></contains>
+      <contains><body>Mg(+)</body><mass-concentration value="41.9"/></contains>
+      <contains><body>K</body><mass-concentration value="89.33"/></contains>
+      <contains><body>Na</body><mass-concentration value="1792."/></contains>
+    </analysis>
+    <comes-from country="CZ">
+      <town>B&latin-small-letter-i-with-acute;lina</town>
+      <division by="region">
+        &latin-capital-letter-u-with-acute;st&latin-small-letter-i-with-acute;
+        nad Labem
+      </division>
+    </comes-from>
+    <barcode>3068241174565</barcode>
+    <pH value="7.33"/>
+  </water-bottle>
+
+</water-bottles>

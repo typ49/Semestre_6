@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE film-series SYSTEM "film-series.dtd">
+
+<film-series name="James Bond" nickname="007">
+
+  <film-list>
+    <film year="1954" starring="nelson" after="fleming" music-by="goldsmith"
+      official="false">
+      <title>Casino Royale</title>
+    </film>
+    <film year="1962" starring="connery" after="fleming" music-by="norman">
+      <title>Dr No</title>
+      <translation xml:lang="fr">James Bond 007 contre Dr No</translation>
+    </film>
+    <film year="1963" starring="connery" after="fleming" music-by="barry">
+      <title>From Russia with Love</title>
+      <translation xml:lang="fr">Bons baisers de Russie</translation>
+      <translation xml:lang="hu">Oroszországból szeretettel</translation>
+      <translation xml:lang="po">Pozdrowienia z Rosji</translation>
+    </film>
+    <film year="1964" starring="connery" after="fleming" music-by="barry">
+      <title>Goldfinger</title>
+    </film>
+    <film year="1965" starring="connery" after="fleming" music-by="barry">
+      <title>Thunderball</title>
+      <translation xml:lang="de">Feuerball</translation>
+      <translation xml:lang="fr">Opération Tonnerre</translation>
+    </film>
+    <film year="1967" starring="connery" after="fleming" music-by="barry">
+      <title>You Only Live Twice</title>
+      <translation xml:lang="fr">On ne vit que deux fois</translation>
+    </film>
+    <film year="1967" starring="niven" after="fleming" music-by="bacharach"
+      official="false">
+      <title>Casino Royale</title>
+    </film>
+    <film year="1969" starring="lazenby" after="fleming" music-by="barry">
+      <title>On Her Majesty's Secret Service</title>
+      <translation xml:lang="fr">Au service secret de Sa Majesté</translation>
+    </film>
+    <film year="1971" starring="connery" after="fleming" music-by="barry">
+      <title>Diamonds Are Forever</title>
+      <translation xml:lang="fr">Les diamants sont éternels</translation>
+    </film>
+    <film year="1973" starring="moore" after="fleming" music-by="martin">
+      <title>Live and Let Die</title>
+      <translation xml:lang="fr">Vivre et laisser mourir</translation>
+    </film>
+    <film year="1974" starring="moore" after="fleming" music-by="barry">
+      <title>The Man with the Golden Gun</title>
+      <translation xml:lang="fr">L'homme au pistolet d'or</translation>
+    </film>
+    <film year="1977" starring="moore" after="fleming" music-by="hamlisch">
+      <title>The Spy Who Loved Me</title>
+      <translation xml:lang="fr">L'espion qui m'aimait</translation>
+    </film>
+    <film year="1979" starring="moore" after="fleming" music-by="barry">
+      <title>Moonraker</title>
+    </film>
+    <film year="1981" starring="moore" after="fleming" music-by="conti">
+      <title>For Your Eyes Only</title>
+      <translation xml:lang="fr">Rien que pour vos yeux</translation>
+    </film>
+    <film year="1983" starring="moore" after="fleming" music-by="barry">
+      <title>Octopussy</title>
+    </film>
+    <film year="1983" starring="connery" after="fleming" music-by="legrand"
+      official="false">
+      <title>Never Say Never Again</title>
+      <translation xml:lang="fr">Jamais plus jamais</translation>
+    </film>
+    <film year="1985" starring="moore" after="fleming" music-by="barry">
+      <title>A View to a Kill</title>
+      <translation xml:lang="fr">Dangereusement vôtre</translation>
+    </film>
+    <film year="1987" starring="dalton" after="fleming" music-by="barry">
+      <title>The Living Daylights</title>
+      <translation xml:lang="fr">Tuer n'est pas jouer</translation>
+    </film>
+    <film year="1989" starring="dalton" after="fleming" music-by="kamen">
+      <title>Licence to Kill</title>
+      <translation xml:lang="fr">Permis de tuer</translation>
+    </film>
+    <film year="1995" starring="brosnan" after="france gardner"
+      music-by="serra">
+      <title>Golden Eye</title>
+    </film>
+    <film year="1997" starring="brosnan" after="benson" music-by="arnold">
+      <title>Tomorrow Never Dies</title>
+      <translation xml:lang="fr">Demain ne meurt jamais</translation>
+    </film>
+    <film year="1999" starring="brosnan" after="purvis wade" music-by="arnold">
+      <title>The Word Is Not Enough</title>
+      <translation xml:lang="fr">Le monde ne suffit pas</translation>
+    </film>
+    <film year="2002" starring="brosnan" after="purvis wade" music-by="arnold">
+      <title>Die Another Day</title>
+      <translation xml:lang="fr">Meurs un autre jour</translation>
+    </film>
+    <film year="2006" starring="craig" after="fleming" music-by="arnold">
+      <title>Casino Royale</title>
+    </film>
+    <film year="2008" starring="craig" after="haggis purvis wade"
+      music-by="arnold">
+      <title>Quantum of Solace</title>
+    </film>
+    <film year="2012" starring="craig" after="logan purvis wade"
+      music-by="newman">
+      <title>Skyfall</title>
+    </film>
+    <film year="2015" starring="craig" after="logan purvis wade"
+      music-by="newman">
+      <title>Spectre</title>
+      <translation xml:lang="fr">007 Spectre</translation>
+    </film>
+    <film year="2021" starring="craig" after="purvis wade" music-by="zimmer">
+      <title>No Time to Die</title>
+      <translation xml:lang="fr">Mourir peut attendre</translation>
+    </film>
+  </film-list>
+
+  <people>
+    <personname key="arnold" firstname="David" lastname="Arnold"
+      role="composer" born-as="UK" born="1962" />
+    <personname key="bacharach" firstname="Burt" lastname="Bacharach"
+      role="composer" born-as="US" born="1928" dead="2023" />
+    <personname key="barry" firstname="John" lastname="Barry" role="composer"
+      born-as="UK" born="1933" dead="2011" />
+    <personname key="benson" firstname="Raymond" lastname="Benson"
+      role="writer" born-as="US" born="1955" />
+    <personname key="brosnan" firstname="Pierce" lastname="Brosnan"
+      role="actor" born-as="IE" born="1953" />
+    <personname key="connery" firstname="Sean" lastname="Connery" role="actor"
+      born-as="UK" born="1930" dead="2020" />
+    <personname key="conti" firstname="Bill" lastname="Conti" role="composer"
+      born-as="US" born="1942" />
+    <personname key="craig" firstname="Daniel" lastname="Craig" role="actor"
+      born-as="UK" born="1968" />
+    <personname key="dalton" firstname="Timothy" lastname="Dalton" role="actor"
+      born-as="UK" born="1946" />
+    <personname key="fleming" firstname="Ian" lastname="Fleming" role="actor"
+      born-as="UK" born="1908" dead="1964" />
+    <personname key="france" firstname="Michael" lastname="France" role="actor"
+      born-as="US" born="1962" dead="2013" />
+    <personname key="gardner" firstname="John" lastname="Gardner" role="writer"
+      born-as="UK" born="1926" dead="2007" />
+    <personname key="goldsmith" firstname="Jerry" lastname="Goldsmith"
+      role="composer" born-as="UK" born="1929" dead="2004" />
+    <personname key="haggis" firstname="Paul" lastname="Haggis" role="composer"
+      born-as="CA" born="1953" />
+    <personname key="hamlisch" firstname="Marvin" lastname="Hamlisch"
+      role="composer" born-as="UK" born="1944" dead="2012" />
+    <personname key="kamen" firstname="Michael" lastname="Kamen"
+      role="composer" born-as="UK" born="1948" dead="2003" />
+    <personname key="lazenby" firstname="George" lastname="Lazenby"
+      role="actor" born-as="AU" born="1939" />
+    <personname key="legrand" firstname="Michel" lastname="Legrand"
+      role="actor" born-as="FR" born="1932" dead="2019" />
+    <personname key="logan" firstname="John" lastname="Logan" role="writer"
+      born-as="UK" born="1961" />
+    <personname key="martin" firstname="George" lastname="Martin"
+      role="composer" born-as="UK" born="1926" dead="2016" />
+    <personname key="moore" firstname="Roger" lastname="Moore" role="actor"
+      born-as="UK" born="1927" dead="2017" />
+    <personname key="nelson" firstname="Barry" lastname="Nelson" role="actor"
+      born-as="US" born="1917" dead="2007" />
+    <personname key="newman" firstname="Thomas" lastname="Newman"
+      role="composer" born-as="UK" born="1955" />
+    <personname key="niven" firstname="David" lastname="Niven" role="writer"
+      born-as="UK" born="1910" dead="1983" />
+    <personname key="norman" firstname="Monty" lastname="Norman"
+      role="composer" born-as="UK" born="1928" dead="2022" />
+    <personname key="purvis" firstname="Neal" lastname="Purvis" role="composer"
+      born-as="UK" born="1961" />
+    <personname key="serra" firstname="Éric" lastname="Serra" role="composer"
+      born-as="FR" born="1959" />
+    <personname key="wade" firstname="Robert" lastname="Wade" role="writer"
+      born-as="UK" born="1962" />
+    <personname key="zimmer" firstname="Hans" lastname="Zimmer" role="composer"
+      born-as="DE" born="1957" />
+  </people>
+  <countries>
+    <country id="UK" name="United Kingdom" />
+    <country id="US" name="United States" />
+    <country id="CA" name="Canada" />
+    <country id="FR" name="France" />
+    <country id="DE" name="Germany" />
+    <country id="AU" name="Australia" />
+    <country id="IE" name="Ireland" />
+  </countries>
+
+</film-series>
